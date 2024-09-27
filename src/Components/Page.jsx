@@ -11,7 +11,7 @@ import mobile from "../assets/app mockup.png";
 function Page() {
   return (
     <div className="mt-10 lg:mt-20">
-      {/* Hero Section */}
+
       <div className="flex flex-col lg:flex-row ml-2 lg:ml-10 justify-between">
         <div className="flex flex-col">
           <p className="flex gap-2 text-gray-600 text-3xl md:text-4xl lg:text-5xl font-semibold">
@@ -44,8 +44,6 @@ function Page() {
           </div>
         </div>
       </div>
-
-      {/* Featured Section */}
       <div className="flex flex-col md:flex-row justify-between bg-gray-200 p-4 mt-6">
         <div className="flex md:w-full  md:flex-row gap-2">
           <p className="text-lg md:text-xl font-medium">Featured in</p>
@@ -54,10 +52,9 @@ function Page() {
         <img src={banner} className="mt-4 md:mt-0 w-full max-w-xs  " alt="Banner" />
       </div>
 
-      {/* Benefits Section */}
       <div className="mt-10 lg:mt-20">
         <div className="flex flex-col lg:flex-row justify-between">
-          {/* Left Section */}
+   
           <div>
             <div className="px-6 lg:px-10 max-w-xl mt-6 lg:mt-20">
               <p className="text-3xl md:text-4xl lg:text-5xl font-bold">
